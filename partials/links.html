@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="css/links.css">
+<div class="link-container">
+
+    <div style="display: table; margin: 0 auto; background-color: #ffffff; width: 500px;height: 60px; padding-top: 40px">
+
+        <div class="link-entry"><img height="100px" src="css/img/github.png"></div>
+        <div class="link-entry"><img height="100px" src="css/img/linkedin.png"></div>
+        <div class="link-entry"><img height="100px" src="css/img/agh.jpg"></div>
+    </div>
+    <p>mail : dmaksdnsad</p>
+<script>
+    $(".link-entry").css({opacity: "0.33"});
+    $(".link-entry").hover(function () {
+//      $(this).css({opacity : "1.0"});
+        $( this ).fadeTo( "fast", 0.88 );
+    }, function () {
+        $( this ).fadeTo( "fast", 0.33 );
+    });
+</script>
+</div>

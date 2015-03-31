@@ -1,0 +1,17 @@
+{
+  "personal": {
+    "name": "Wojciech",
+    "surname": "Adaszyński",
+    "birth": "1994-07-13"
+  },
+  "education": {
+    "highschool": {
+      "name": "1 Liceum Ogólnokształcące w Zielonej Górze",
+      "date": "2013-2024"
+    },
+    "university": {
+      "name": "AGH University of Science and Technology",
+      "description": "Undergraduate programme in Computer Science"
+    }
+  }
+}
